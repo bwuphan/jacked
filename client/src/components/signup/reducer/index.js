@@ -1,16 +1,7 @@
 import { CHANGE_FORM_FIELD } from '../constants/constants';
 
 export const initialState = {
-  carrierName: '',
-  firstName: '',
-  lastName: '',
-  email: '',
-  password: '',
-  passwordHint: '',
-  broker: '',
-  mc: '',
-  usdot: '',
-  ownerOrOperator: '',
+
 };
 
 export const signup = (state = initialState, action) => {
